@@ -1,0 +1,135 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\niroshanku\\Documents\\Repos\\elizor-ecommerce-app\\elizor-ecommerce-auth-repo\\elizor.ecommerce.auth.entityserver\\elizor.ecommerce.auth.entityserver.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\niroshanku\\Documents\\Repos\\elizor-ecommerce-app\\elizor-ecommerce-auth-repo\\elizor.ecommerce.auth.entityserver\\elizor.ecommerce.auth.entityserver.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\niroshanku\\Documents\\Repos\\elizor-ecommerce-app\\elizor-ecommerce-auth-repo\\elizor.ecommerce.auth.entityserver\\elizor.ecommerce.auth.entityserver.csproj",
+        "projectName": "elizor.ecommerce.auth.entityserver",
+        "projectPath": "C:\\Users\\niroshanku\\Documents\\Repos\\elizor-ecommerce-app\\elizor-ecommerce-auth-repo\\elizor.ecommerce.auth.entityserver\\elizor.ecommerce.auth.entityserver.csproj",
+        "packagesPath": "C:\\Users\\niroshanku\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\niroshanku\\Documents\\Repos\\elizor-ecommerce-app\\elizor-ecommerce-auth-repo\\elizor.ecommerce.auth.entityserver\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\niroshanku\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://jkcs-projects.pkgs.visualstudio.com/KeellsMobileApp/_packaging/jkit-smart-retail-feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\niroshanku\\Documents\\Repos\\elizor-ecommerce-app\\elizor-ecommerce-auth-repo\\elizor.ecommerce.auth.shared\\elizor.ecommerce.auth.shared.csproj": {
+                "projectPath": "C:\\Users\\niroshanku\\Documents\\Repos\\elizor-ecommerce-app\\elizor-ecommerce-auth-repo\\elizor.ecommerce.auth.shared\\elizor.ecommerce.auth.shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "IdentityServer4": {
+              "target": "Package",
+              "version": "[4.1.2, )"
+            },
+            "IdentityServer4.EntityFramework": {
+              "target": "Package",
+              "version": "[4.1.2, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\niroshanku\\Documents\\Repos\\elizor-ecommerce-app\\elizor-ecommerce-auth-repo\\elizor.ecommerce.auth.shared\\elizor.ecommerce.auth.shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\niroshanku\\Documents\\Repos\\elizor-ecommerce-app\\elizor-ecommerce-auth-repo\\elizor.ecommerce.auth.shared\\elizor.ecommerce.auth.shared.csproj",
+        "projectName": "elizor.ecommerce.auth.shared",
+        "projectPath": "C:\\Users\\niroshanku\\Documents\\Repos\\elizor-ecommerce-app\\elizor-ecommerce-auth-repo\\elizor.ecommerce.auth.shared\\elizor.ecommerce.auth.shared.csproj",
+        "packagesPath": "C:\\Users\\niroshanku\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\niroshanku\\Documents\\Repos\\elizor-ecommerce-app\\elizor-ecommerce-auth-repo\\elizor.ecommerce.auth.shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\niroshanku\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://jkcs-projects.pkgs.visualstudio.com/KeellsMobileApp/_packaging/jkit-smart-retail-feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
